@@ -1,14 +1,37 @@
 'use client'
 import { ThemeProvider } from "@/components/theme-provider"
+import { useState } from 'react';
+import { Query, QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { Toaster } from '@/components/ui/Toaster';
 
 import { PropsWithChildren } from "react"
 
-const Providers = ({children}:PropsWithChildren) => {
-  return (
-    <>
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>{children}</ThemeProvider>
-   </>
-  )
-}
+const Providers = ({ children }: { children: React.ReactNode }) => {
+  const [queryClient] = useState(
+    () =>
+      new QueryClient({
+        defaultOptions: {
+          queries: {
+            staleTime: 60 * 1000 * 5,
+          },
+        },
+      })
+  );
 
-export default Providers
+  return (
+    <ThemeProvider
+      attribute='class'
+      defaultTheme='system'
+      enableSystem
+      disableTransitionOnChange
+    >
+      <Toaster />
+      <QueryClientProvider client={queryClient}>
+        {children}
+        <ReactQueryDevtools initialIsOpen={false} />
+      </QueryClientProvider>
+    </ThemeProvider>
+  );
+};
+export default Providers;
