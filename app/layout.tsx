@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Jobify",
-  description: "Job application tracking system for job hunters",
+  description: "Job application tracking system for job hunters and recruiters.",
 };
 
 export default function RootLayout({

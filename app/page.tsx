@@ -15,10 +15,7 @@ export default function Home() {
             job <span className='text-primary'>tracking</span> app
           </h1>
           <p className='leading-loose max-w-md mt-4 '>
-            I am baby wayfarers hoodie next level taiyaki brooklyn cliche blue
-            bottle single-origin coffee chia. Aesthetic post-ironic venmo,
-            quinoa lo-fi tote bag adaptogen everyday carry meggings +1 brunch
-            narwhal.
+          Job application tracking system for job hunters and recruiters.
           </p>
           <Button asChild className='mt-4'>
             <Link href='/add-job'>Get Started</Link>
