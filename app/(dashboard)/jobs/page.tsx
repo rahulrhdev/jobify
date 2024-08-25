@@ -1,5 +1,5 @@
 import JobsList from "@/components/JobsList"
-import SearchForm from '@/components/SearchForm';
+import SearchForm from '@/components/Searchform';
 import {
   dehydrate,
   HydrationBoundary,
