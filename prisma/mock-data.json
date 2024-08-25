@@ -1,0 +1,71 @@
+[{
+    "position": "Software Consultant",
+    "company": "Blogtags",
+    "location": "Cortezia",
+    "status": "interview",
+    "mode": "full-time",
+    "createdAt": "2023-09-23T18:21:37Z"
+  }, {
+    "position": "Marketing Assistant",
+    "company": "Gigashots",
+    "location": "Sendang",
+    "status": "interview",
+    "mode": "part-time",
+    "createdAt": "2024-05-19T02:40:18Z"
+  }, {
+    "position": "Dental Hygienist",
+    "company": "Minyx",
+    "location": "Xingang",
+    "status": "interview",
+    "mode": "full-time",
+    "createdAt": "2023-10-24T06:22:04Z"
+  }, {
+    "position": "Programmer Analyst II",
+    "company": "Innojam",
+    "location": "Keti Bandar",
+    "status": "pending",
+    "mode": "part-time",
+    "createdAt": "2024-08-22T01:07:08Z"
+  }, {
+    "position": "Programmer Analyst I",
+    "company": "Quinu",
+    "location": "Balagui",
+    "status": "pending",
+    "mode": "full-time",
+    "createdAt": "2023-09-28T08:38:36Z"
+  }, {
+    "position": "Computer Systems Analyst II",
+    "company": "Trilia",
+    "location": "Columbia",
+    "status": "pending",
+    "mode": "internship",
+    "createdAt": "2023-09-02T02:15:45Z"
+  }, {
+    "position": "Social Worker",
+    "company": "Thoughtstorm",
+    "location": "Uzgen",
+    "status": "interview",
+    "mode": "full-time",
+    "createdAt": "2024-03-08T17:22:26Z"
+  }, {
+    "position": "Design Engineer",
+    "company": "Rooxo",
+    "location": "Omoku",
+    "status": "declined",
+    "mode": "part-time",
+    "createdAt": "2023-11-15T08:37:58Z"
+  }, {
+    "position": "Product Engineer",
+    "company": "Realcube",
+    "location": "Bāsawul",
+    "status": "interview",
+    "mode": "full-time",
+    "createdAt": "2023-09-11T09:18:54Z"
+  }, {
+    "position": "Paralegal",
+    "company": "Feedbug",
+    "location": "Mikró Monastíri",
+    "status": "interview",
+    "mode": "full-time",
+    "createdAt": "2024-05-26T19:43:48Z"
+  }]
