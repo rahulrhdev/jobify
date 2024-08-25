@@ -18,14 +18,12 @@ import DeleteJobBtn from "./DeleteJobBtn";
 
 function JobCard({ job }: { job: JobType }) {
   const date = new Date(job.createdAt).toLocaleDateString();
-
   return (
     <Card className="bg-muted">
       <CardHeader>
         <CardTitle>{job.position}</CardTitle>
         <CardDescription>{job.company}</CardDescription>
       </CardHeader>
-      <Separator />
       <CardContent className="mt-4 grid grid-cols-2 gap-4">
         <JobInfo icon={<Briefcase />} text={job.mode} />
         <JobInfo icon={<MapPin />} text={job.location} />
@@ -37,6 +35,7 @@ function JobCard({ job }: { job: JobType }) {
           />
         </Badge>
       </CardContent>
+      <Separator />
       <CardFooter className="flex gap-4">
         <Button asChild size="sm">
           <Link href={`/jobs/${job.id}`}>edit</Link>
